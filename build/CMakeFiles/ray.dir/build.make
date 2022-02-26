@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1"
+CMAKE_SOURCE_DIR = "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build"
+CMAKE_BINARY_DIR = "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ray.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ray.dir/flags.make
 
 CMakeFiles/ray.dir/Code/image.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/Code/image.cpp.o: ../Code/image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ray.dir/Code/image.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/image.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/image.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ray.dir/Code/image.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/image.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/image.cpp"
 
 CMakeFiles/ray.dir/Code/image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/Code/image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/image.cpp" > CMakeFiles/ray.dir/Code/image.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/image.cpp" > CMakeFiles/ray.dir/Code/image.cpp.i
 
 CMakeFiles/ray.dir/Code/image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/Code/image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/image.cpp" -o CMakeFiles/ray.dir/Code/image.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/image.cpp" -o CMakeFiles/ray.dir/Code/image.cpp.s
 
 CMakeFiles/ray.dir/Code/image.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/ray.dir/Code/image.cpp.o.provides.build: CMakeFiles/ray.dir/Code/imag
 
 CMakeFiles/ray.dir/Code/lode/lodepng.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/Code/lode/lodepng.cpp.o: ../Code/lode/lodepng.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ray.dir/Code/lode/lodepng.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/lode/lodepng.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/lode/lodepng.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ray.dir/Code/lode/lodepng.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/lode/lodepng.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/lode/lodepng.cpp"
 
 CMakeFiles/ray.dir/Code/lode/lodepng.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/Code/lode/lodepng.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/lode/lodepng.cpp" > CMakeFiles/ray.dir/Code/lode/lodepng.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/lode/lodepng.cpp" > CMakeFiles/ray.dir/Code/lode/lodepng.cpp.i
 
 CMakeFiles/ray.dir/Code/lode/lodepng.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/Code/lode/lodepng.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/lode/lodepng.cpp" -o CMakeFiles/ray.dir/Code/lode/lodepng.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/lode/lodepng.cpp" -o CMakeFiles/ray.dir/Code/lode/lodepng.cpp.s
 
 CMakeFiles/ray.dir/Code/lode/lodepng.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/ray.dir/Code/lode/lodepng.cpp.o.provides.build: CMakeFiles/ray.dir/Co
 
 CMakeFiles/ray.dir/Code/main.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/Code/main.cpp.o: ../Code/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ray.dir/Code/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/main.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ray.dir/Code/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/main.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/main.cpp"
 
 CMakeFiles/ray.dir/Code/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/Code/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/main.cpp" > CMakeFiles/ray.dir/Code/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/main.cpp" > CMakeFiles/ray.dir/Code/main.cpp.i
 
 CMakeFiles/ray.dir/Code/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/Code/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/main.cpp" -o CMakeFiles/ray.dir/Code/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/main.cpp" -o CMakeFiles/ray.dir/Code/main.cpp.s
 
 CMakeFiles/ray.dir/Code/main.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/ray.dir/Code/main.cpp.o.provides.build: CMakeFiles/ray.dir/Code/main.
 
 CMakeFiles/ray.dir/Code/objloader.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/Code/objloader.cpp.o: ../Code/objloader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ray.dir/Code/objloader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/objloader.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/objloader.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ray.dir/Code/objloader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/objloader.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/objloader.cpp"
 
 CMakeFiles/ray.dir/Code/objloader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/Code/objloader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/objloader.cpp" > CMakeFiles/ray.dir/Code/objloader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/objloader.cpp" > CMakeFiles/ray.dir/Code/objloader.cpp.i
 
 CMakeFiles/ray.dir/Code/objloader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/Code/objloader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/objloader.cpp" -o CMakeFiles/ray.dir/Code/objloader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/objloader.cpp" -o CMakeFiles/ray.dir/Code/objloader.cpp.s
 
 CMakeFiles/ray.dir/Code/objloader.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/ray.dir/Code/objloader.cpp.o.provides.build: CMakeFiles/ray.dir/Code/
 
 CMakeFiles/ray.dir/Code/raytracer.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/Code/raytracer.cpp.o: ../Code/raytracer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ray.dir/Code/raytracer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/raytracer.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/raytracer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ray.dir/Code/raytracer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/raytracer.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/raytracer.cpp"
 
 CMakeFiles/ray.dir/Code/raytracer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/Code/raytracer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/raytracer.cpp" > CMakeFiles/ray.dir/Code/raytracer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/raytracer.cpp" > CMakeFiles/ray.dir/Code/raytracer.cpp.i
 
 CMakeFiles/ray.dir/Code/raytracer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/Code/raytracer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/raytracer.cpp" -o CMakeFiles/ray.dir/Code/raytracer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/raytracer.cpp" -o CMakeFiles/ray.dir/Code/raytracer.cpp.s
 
 CMakeFiles/ray.dir/Code/raytracer.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/ray.dir/Code/raytracer.cpp.o.provides.build: CMakeFiles/ray.dir/Code/
 
 CMakeFiles/ray.dir/Code/scene.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/Code/scene.cpp.o: ../Code/scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ray.dir/Code/scene.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/scene.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/scene.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ray.dir/Code/scene.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/scene.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/scene.cpp"
 
 CMakeFiles/ray.dir/Code/scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/Code/scene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/scene.cpp" > CMakeFiles/ray.dir/Code/scene.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/scene.cpp" > CMakeFiles/ray.dir/Code/scene.cpp.i
 
 CMakeFiles/ray.dir/Code/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/Code/scene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/scene.cpp" -o CMakeFiles/ray.dir/Code/scene.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/scene.cpp" -o CMakeFiles/ray.dir/Code/scene.cpp.s
 
 CMakeFiles/ray.dir/Code/scene.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/ray.dir/Code/scene.cpp.o.provides.build: CMakeFiles/ray.dir/Code/scen
 
 CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o: ../Code/shapes/cylinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/cylinder.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/cylinder.cpp"
 
 CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/cylinder.cpp" > CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/cylinder.cpp" > CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.i
 
 CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/cylinder.cpp" -o CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/cylinder.cpp" -o CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.s
 
 CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o.provides.build: CMakeFiles/ray.dir
 
 CMakeFiles/ray.dir/Code/shapes/mesh.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/Code/shapes/mesh.cpp.o: ../Code/shapes/mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ray.dir/Code/shapes/mesh.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/shapes/mesh.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/mesh.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ray.dir/Code/shapes/mesh.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/shapes/mesh.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/mesh.cpp"
 
 CMakeFiles/ray.dir/Code/shapes/mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/Code/shapes/mesh.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/mesh.cpp" > CMakeFiles/ray.dir/Code/shapes/mesh.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/mesh.cpp" > CMakeFiles/ray.dir/Code/shapes/mesh.cpp.i
 
 CMakeFiles/ray.dir/Code/shapes/mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/Code/shapes/mesh.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/mesh.cpp" -o CMakeFiles/ray.dir/Code/shapes/mesh.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/mesh.cpp" -o CMakeFiles/ray.dir/Code/shapes/mesh.cpp.s
 
 CMakeFiles/ray.dir/Code/shapes/mesh.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/ray.dir/Code/shapes/mesh.cpp.o.provides.build: CMakeFiles/ray.dir/Cod
 
 CMakeFiles/ray.dir/Code/shapes/quad.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/Code/shapes/quad.cpp.o: ../Code/shapes/quad.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ray.dir/Code/shapes/quad.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/shapes/quad.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/quad.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ray.dir/Code/shapes/quad.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/shapes/quad.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/quad.cpp"
 
 CMakeFiles/ray.dir/Code/shapes/quad.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/Code/shapes/quad.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/quad.cpp" > CMakeFiles/ray.dir/Code/shapes/quad.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/quad.cpp" > CMakeFiles/ray.dir/Code/shapes/quad.cpp.i
 
 CMakeFiles/ray.dir/Code/shapes/quad.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/Code/shapes/quad.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/quad.cpp" -o CMakeFiles/ray.dir/Code/shapes/quad.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/quad.cpp" -o CMakeFiles/ray.dir/Code/shapes/quad.cpp.s
 
 CMakeFiles/ray.dir/Code/shapes/quad.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/ray.dir/Code/shapes/quad.cpp.o.provides.build: CMakeFiles/ray.dir/Cod
 
 CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o: ../Code/shapes/sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/sphere.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/sphere.cpp"
 
 CMakeFiles/ray.dir/Code/shapes/sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/Code/shapes/sphere.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/sphere.cpp" > CMakeFiles/ray.dir/Code/shapes/sphere.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/sphere.cpp" > CMakeFiles/ray.dir/Code/shapes/sphere.cpp.i
 
 CMakeFiles/ray.dir/Code/shapes/sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/Code/shapes/sphere.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/sphere.cpp" -o CMakeFiles/ray.dir/Code/shapes/sphere.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/sphere.cpp" -o CMakeFiles/ray.dir/Code/shapes/sphere.cpp.s
 
 CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o.provides.build: CMakeFiles/ray.dir/C
 
 CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o: ../Code/shapes/triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/triangle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/triangle.cpp"
 
 CMakeFiles/ray.dir/Code/shapes/triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/Code/shapes/triangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/triangle.cpp" > CMakeFiles/ray.dir/Code/shapes/triangle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/triangle.cpp" > CMakeFiles/ray.dir/Code/shapes/triangle.cpp.i
 
 CMakeFiles/ray.dir/Code/shapes/triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/Code/shapes/triangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/triangle.cpp" -o CMakeFiles/ray.dir/Code/shapes/triangle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/triangle.cpp" -o CMakeFiles/ray.dir/Code/shapes/triangle.cpp.s
 
 CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o.provides.build: CMakeFiles/ray.dir
 
 CMakeFiles/ray.dir/Code/triple.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/Code/triple.cpp.o: ../Code/triple.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ray.dir/Code/triple.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/triple.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ray.dir/Code/triple.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ray.dir/Code/triple.cpp.o -c "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/triple.cpp"
 
 CMakeFiles/ray.dir/Code/triple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/Code/triple.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.cpp" > CMakeFiles/ray.dir/Code/triple.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/triple.cpp" > CMakeFiles/ray.dir/Code/triple.cpp.i
 
 CMakeFiles/ray.dir/Code/triple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/Code/triple.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.cpp" -o CMakeFiles/ray.dir/Code/triple.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/triple.cpp" -o CMakeFiles/ray.dir/Code/triple.cpp.s
 
 CMakeFiles/ray.dir/Code/triple.cpp.o.requires:
 
@@ -377,7 +377,7 @@ ray: CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o
 ray: CMakeFiles/ray.dir/Code/triple.cpp.o
 ray: CMakeFiles/ray.dir/build.make
 ray: CMakeFiles/ray.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ray"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ray.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -405,6 +405,6 @@ CMakeFiles/ray.dir/clean:
 .PHONY : CMakeFiles/ray.dir/clean
 
 CMakeFiles/ray.dir/depend:
-	cd "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1" "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1" "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build" "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build" "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/CMakeFiles/ray.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer" "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer" "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build" "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build" "/mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/build/CMakeFiles/ray.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ray.dir/depend
 

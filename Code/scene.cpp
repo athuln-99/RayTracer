@@ -52,7 +52,7 @@ Color Scene::trace(Ray const &ray)
     *        pow(a,b)           a to the power of b
     ****************************************************/
 
-    Color color = material.color;               // placeholder
+    Color color = material.color * material.ka;
 
     return color;
 }
