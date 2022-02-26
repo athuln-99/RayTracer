@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1
+# Install script for directory: /mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

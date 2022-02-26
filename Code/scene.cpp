@@ -52,7 +52,9 @@ Color Scene::trace(Ray const &ray)
     *        pow(a,b)           a to the power of b
     ****************************************************/
 
-    Color color = material.color;               // placeholder
+    // ambient component I_A of the Phone illumination model
+    Color ambient = material.color * material.ka;
+    Color color = ambient;
 
     return color;
 }

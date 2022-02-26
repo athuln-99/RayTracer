@@ -11,8 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o"
   "CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o"
   "CMakeFiles/ray.dir/Code/triple.cpp.o"
-  "ray.pdb"
   "ray"
+  "ray.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

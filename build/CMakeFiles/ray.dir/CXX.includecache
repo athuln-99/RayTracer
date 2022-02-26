@@ -6,295 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/hit.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/hit.h
 triple.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/triple.h
 limits
 -
 
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/image.cpp
-image.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/image.h
-lode/lodepng.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/lode/lodepng.h
-iostream
--
-fstream
--
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/image.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/image.h
 triple.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/triple.h
 string
 -
 vector
 -
 
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/json/json.h
-algorithm
--
-cassert
--
-ciso646
--
-cstddef
--
-functional
--
-initializer_list
--
-iosfwd
--
-iterator
--
-numeric
--
-string
--
-utility
--
-cstdint
--
-map
--
-memory
--
-string
--
-vector
--
-ciso646
--
-cstddef
--
-limits
--
-type_traits
--
-utility
--
-exception
--
-stdexcept
--
-string
--
-array
--
-ciso646
--
-cstddef
--
-cstdint
--
-algorithm
--
-array
--
-ciso646
--
-forward_list
--
-iterator
--
-string
--
-tuple
--
-type_traits
--
-utility
--
-valarray
--
-ciso646
--
-iterator
--
-tuple
--
-type_traits
--
-utility
--
-valarray
--
-vector
--
-algorithm
--
-array
--
-cassert
--
-cstddef
--
-cstring
--
-ios
--
-istream
--
-iterator
--
-memory
--
-numeric
--
-string
--
-type_traits
--
-utility
--
-clocale
--
-cstddef
--
-cstdlib
--
-initializer_list
--
-ios
--
-iomanip
--
-sstream
--
-string
--
-vector
--
-cassert
--
-cmath
--
-cstdint
--
-functional
--
-string
--
-utility
--
-cstddef
--
-limits
--
-ciso646
--
-iterator
--
-type_traits
--
-cstddef
--
-string
--
-cstddef
--
-iterator
--
-utility
--
-algorithm
--
-cstddef
--
-ios
--
-iterator
--
-memory
--
-ostream
--
-string
--
-vector
--
-algorithm
--
-array
--
-cassert
--
-cmath
--
-cstddef
--
-cstdint
--
-cstring
--
-iomanip
--
-ios
--
-iterator
--
-limits
--
-sstream
--
-string
--
-utility
--
-algorithm
--
-array
--
-cstdint
--
-cstring
--
-limits
--
-algorithm
--
-array
--
-cassert
--
-ciso646
--
-clocale
--
-cmath
--
-cstddef
--
-cstdint
--
-cstdio
--
-iterator
--
-limits
--
-string
--
-type_traits
--
-cassert
--
-ciso646
--
-cmath
--
-cstdint
--
-cstring
--
-initializer_list
--
-utility
--
-utility
--
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/json/json_fwd.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/json/json_fwd.h
 cstdint
 -
 map
@@ -306,225 +32,61 @@ string
 vector
 -
 
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/light.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/light.h
 triple.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/triple.h
 memory
 -
 
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/lode/lodepng.cpp
-lodepng.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/lode/lodepng.h
-limits.h
--
-stdio.h
--
-stdlib.h
--
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/lode/lodepng.h
-string.h
--
-vector
--
-string
--
-lodepng.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/lode/lodepng.h
-iostream
--
-lodepng.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/lode/lodepng.h
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/main.cpp
-raytracer.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/raytracer.h
-iostream
--
-string
--
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/material.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/material.h
 triple.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/triple.h
 
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/object.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/object.h
 material.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/material.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/material.h
 hit.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/hit.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/hit.h
 ray.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/ray.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/ray.h
 triple.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/triple.h
 memory
 -
 
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/objloader.cpp
-objloader.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/objloader.h
-fstream
--
-iostream
--
-sstream
--
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/objloader.h
-vertex.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/vertex.h
-string
--
-vector
--
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/ray.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/ray.h
 triple.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/triple.h
 
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/raytracer.cpp
-raytracer.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/raytracer.h
-image.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/image.h
-light.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/light.h
-material.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/material.h
-triple.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.h
-shapes/cylinder.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/cylinder.h
-shapes/mesh.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/mesh.h
-shapes/quad.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/quad.h
-shapes/sphere.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/sphere.h
-shapes/triangle.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/triangle.h
-json/json.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/json/json.h
-exception
--
-fstream
--
-iostream
--
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/raytracer.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/scene.cpp
 scene.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/scene.h
-string
--
-json/json_fwd.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/json/json_fwd.h
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/scene.cpp
-scene.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/scene.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/scene.h
 hit.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/hit.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/hit.h
 image.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/image.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/image.h
 material.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/material.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/material.h
 ray.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/ray.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/ray.h
 cmath
 -
 limits
 -
 
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/scene.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/scene.h
 light.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/light.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/light.h
 object.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/object.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/object.h
 triple.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/triple.h
 vector
 -
 
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/cylinder.cpp
-cylinder.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/cylinder.h
-cmath
--
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/cylinder.h
-../object.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/object.h
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/mesh.cpp
-mesh.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/mesh.h
-../objloader.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/objloader.h
-../vertex.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/vertex.h
-triangle.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/triangle.h
-cmath
--
-iostream
--
-limits
--
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/mesh.h
-../object.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/object.h
-string
--
-vector
--
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/quad.cpp
-quad.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/quad.h
-limits
--
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/quad.h
-../object.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/object.h
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/sphere.cpp
-sphere.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/sphere.h
-cmath
--
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/sphere.h
-../object.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/object.h
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/triangle.cpp
-triangle.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/triangle.h
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/shapes/triangle.h
-../object.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/object.h
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.cpp
-triple.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.h
-json/json.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/json/json.h
-cmath
--
-exception
--
-iostream
--
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/triple.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/triple.h
 json/json_fwd.h
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/json/json_fwd.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/json/json_fwd.h
 iosfwd
 -
-
-/mnt/d/University/3rd Year/Computer Graphics/OpenGL/RayTracer_1/Code/vertex.h
 

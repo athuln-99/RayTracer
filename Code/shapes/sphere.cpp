@@ -22,12 +22,37 @@ Hit Sphere::intersect(Ray const &ray)
     * intersection point from the ray origin in *t (see example).
     ****************************************************/
 
-    // Placeholder for actual intersection calculation.
-    Vector originToPosition = (position - ray.O).normalized();
-    if (originToPosition.dot(ray.D) < 0.999)
-        return Hit::NO_HIT();
+    Point dis = ray.O - position;
 
-    double t = 1000;
+    // solve with the abc-rule
+    double a = ray.D.dot(ray.D);
+    double b = 2.0 * dis.dot(ray.D);
+    double c = dis.dot(dis) - pow(r, 2.0);
+
+    double disc = pow(b, 2.0) - 4.0 * a * c;
+
+    // The ray doesn't interset the sphere because the discriminant is lower than 0; therefore, the sphere is behind the ray's origin.
+    if (disc < 0) {
+      return Hit::NO_HIT();
+    }
+
+    // discriminant of a quadratic equation
+    double t1 = (-b + sqrt(disc)) / (2.0 * a);
+    double t2 = (-b - sqrt(disc)) / (2.0 * a);
+
+    // At most 2 answers for t
+    // We take the smallest positive value for t as the hit.
+    double t;
+    if (t1 < t2) { 
+        t = t1;
+        if (t < 0) t = t2;
+    } else {
+        t = t2;
+        if (t < 0) t = t1;
+    }
+
+    // If no t is positive, the sphere is behind the ray's origin, so no intersection
+    if (t < 0) return Hit::NO_HIT();
 
     /****************************************************
     * RT1.2: NORMAL CALCULATION
@@ -38,7 +63,8 @@ Hit Sphere::intersect(Ray const &ray)
     * Insert calculation of the sphere's normal at the intersection point.
     ****************************************************/
 
-    Vector N /* = ... */;
+    // sphere's normal at the intersection point
+    Vector N = (ray.at(t) - position).normalized();
 
     return Hit(t, N);
 }
