@@ -54,9 +54,22 @@ Color Scene::trace(Ray const &ray)
 
     // ambient component I_A of the Phone illumination model
     Color ambient = material.color * material.ka;
-    Color color = ambient;
 
-    return color;
+    Color C = (N+1)/2;
+    
+    Vector L = (lights[0]->position - hit).normalized();
+
+    Color diffuse;
+
+    //Check if the normal is pointing in the direction of the camera/eye
+    if (N.dot(V) > 0) {
+        diffuse = L.dot(N) * material.color * lights[0]->color * material.kd;
+    } else {
+        diffuse = N.dot(-L) * material.color * lights[0]->color * material.kd;
+    }
+    
+
+    return ambient + diffuse;
 }
 
 void Scene::render(Image &img)

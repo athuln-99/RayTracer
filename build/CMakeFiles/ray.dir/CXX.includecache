@@ -12,6 +12,7 @@ triple.h
 limits
 -
 
+<<<<<<< Updated upstream
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/image.cpp
 image.h
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/image.h
@@ -295,6 +296,9 @@ utility
 -
 
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/json/json_fwd.h
+=======
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/json/json_fwd.h
+>>>>>>> Stashed changes
 cstdint
 -
 map
@@ -306,6 +310,7 @@ string
 vector
 -
 
+<<<<<<< Updated upstream
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/light.h
 triple.h
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/triple.h
@@ -345,6 +350,9 @@ string
 -
 
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/material.h
+=======
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/material.h
+>>>>>>> Stashed changes
 triple.h
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/triple.h
 
@@ -382,6 +390,7 @@ vector
 triple.h
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/triple.h
 
+<<<<<<< Updated upstream
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/raytracer.cpp
 raytracer.h
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/raytracer.h
@@ -432,10 +441,17 @@ material.h
 ray.h
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/ray.h
 cmath
+=======
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/shapes/sphere.cpp
+sphere.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/shapes/sphere.h
+iostream
+>>>>>>> Stashed changes
 -
-limits
+cmath
 -
 
+<<<<<<< Updated upstream
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/scene.h
 light.h
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/light.h
@@ -479,6 +495,11 @@ string
 -
 vector
 -
+=======
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/shapes/sphere.h
+../object.h
+/mnt/c/Users/danie/OneDrive/Documents/University of Groningen/3rd year/2A/Computer Graphics/RayTracer/Code/object.h
+>>>>>>> Stashed changes
 
 /mnt/d/University/3rd Year/Computer Graphics/RayTracer/RayTracer/Code/shapes/quad.cpp
 quad.h
