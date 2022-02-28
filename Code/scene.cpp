@@ -55,9 +55,12 @@ Color Scene::trace(Ray const &ray)
     // ambient component I_A of the Phone illumination model
     Color ambient = material.color * material.ka;
 
-    Color C = (N+1)/2;
+    // test the normal calculation before adding the diffuse component
+    // Color color = ambient;
+    // color = (N + 1) / 2;
     
     Vector L = (lights[0]->position - hit).normalized();
+    Color lightColor = lights[0]->color;
 
     Color diffuse;
 
@@ -67,9 +70,13 @@ Color Scene::trace(Ray const &ray)
     } else {
         diffuse = N.dot(-L) * material.color * lights[0]->color * material.kd;
     }
-    
 
-    return ambient + diffuse;
+    Vector R =  ((2 * (N.dot(L)) * N) - L).normalized();
+    Color specular = (R.dot(V)) * lightColor * material.ks;
+
+    Color color = ambient + diffuse + specular;
+
+    return color;
 }
 
 void Scene::render(Image &img)
